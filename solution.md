@@ -25,6 +25,16 @@ def celsius_to_fahrenheit(celsius):
 
 def celsius_to_kelvin(celsius):
     pass
+
+# ...
+
+def run_cli():
+    ...
+
+    result = celsius_to_fahrenheit(0)
+    print(result)
+
+    while True:
 ```
 
 </details>  
@@ -40,6 +50,17 @@ def celsius_to_fahrenheit(celsius):
 
 def celsius_to_kelvin(celsius):
 	return celsius + 273.15
+
+
+# ...
+
+def run_cli():
+    ...
+
+    result = celsius_to_kelvin(0)
+    print(result)
+
+    while True:
 ```
 
 </details> 
@@ -73,6 +94,9 @@ if celsius_input.lower() == "q":
 celsius_value = float(celsius_input)
 f_value = celsius_to_fahrenheit(celsius_value)
 k_value = celsius_to_kelvin(celsius_value)
+
+print(celsius_value + " celsius = " + f_value + " fahrenheit")
+print(celsius_value + " celsius = " + k_value + " kelvin")
 ```
 </details>   
 

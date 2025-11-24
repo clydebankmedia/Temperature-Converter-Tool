@@ -23,6 +23,8 @@ def run_cli():
     print("Convert Celsius to Fahrenheit and Kelvin.")
     print("Type 'q' to quit.\n")
 
+    celsius_to_fahrenheit(0)
+
     while True:
         # STEP 3:
         celsius_input = input("Enter temperature in Celsius (or 'q' to quit): ").strip()
